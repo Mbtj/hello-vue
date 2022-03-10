@@ -1,10 +1,12 @@
 <template>
   <img alt="Vue logo" src="./assets/tj.svg" />
+  <ButtonCounter count="2022"/>
   <HelloWorld msg="This is my first Vue application" />
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import ButtonCounter from "./components/ButtonCounter.vue"
 
 export default {
   name: "App",
