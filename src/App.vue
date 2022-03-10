@@ -6,7 +6,7 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-import ButtonCounter from "./components/ButtonCounter.vue"
+import ButtonCounter from "./components/ButtonCounter.vue";
 
 export default {
   name: "App",
