@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/tj.svg" />
-  <ButtonCounter count="2022"/>
+  <ButtonCounter initialCount="2022" />
   <HelloWorld msg="This is my first Vue application" />
 </template>
 
@@ -12,13 +12,14 @@ export default {
   name: "App",
   components: {
     HelloWorld,
-    ButtonCounter
+    ButtonCounter,
   },
 };
 </script>
 
 <style>
-#app, #app-extended {
+#app,
+#app-extended {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
